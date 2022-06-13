@@ -1,0 +1,21 @@
+body, html{
+    background-color:lightslategrey; 
+    color: rgb(82, 63, 69);
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+h1{
+    color: firebrick;
+    background-color: blue;
+    
+}
+
+footer{
+    position: fixed;
+    bottom:0px;
+}

@@ -1,0 +1,7 @@
+{% extends 'monitoreo/layout.html' %}
+{% block content %}
+<h1>Clientes Ingresados</h1>
+	{% for cli in data %}
+		Rut: {{cli.rut}} Nombre: {{cli.nombre}}  Apellido: {{cli.apellido}}<br>  
+	{% endfor %}
+{% endblock %}
