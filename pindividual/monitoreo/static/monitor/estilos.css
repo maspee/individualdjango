@@ -19,3 +19,27 @@ footer{
     position: fixed;
     bottom:0px;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+/* Demo styling  */
+
+body {
+  background: #4568DC;
+  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+  background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+code {
+  color: #665;
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+a{
+    text-decoration: none;
+}
