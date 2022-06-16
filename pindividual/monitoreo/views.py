@@ -48,3 +48,5 @@ def clientes2(request):
 
 def ej(request):
     return render(request, 'monitoreo/ej.html')
+
+#Vistas
